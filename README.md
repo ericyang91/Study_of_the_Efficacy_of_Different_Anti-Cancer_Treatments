@@ -83,16 +83,14 @@ Linear Regression:
 ## Analysis:
 </br>
 
-- Top 5 performing schools as measured by % passing both math and reading are all charter schools, with the total number of students and budget below the district average. The statistical significance of the difference is subject to further testing.
-- Top 5 performing schools as measured by % passing both math and reading have test scores above the district average. The statistical significance of the difference is subject to further testing.
-- Bottom 5 performing schools as measured by % passing both math and reading are all district schools, with the total number of students and budget above the district average. The statistical significance of the difference is subject to further testing.
-- Bottom 5 performing schools as measured by % passing both math and reading have test scores below the district average. The statistical significance of the difference is subject to further testing.
-- Schools in the lower budget per student category have higher subject scores. The statistical significance is subject to further testing.
-- Schools in the higher budget per student category have lower subject scores. The statistical significance is subject to further testing.
-- Schools with small student population (less than 2,000) on average have higher test scores. The statistical significance is subject to further testing.
-- Charter schools on average have higher test scores. The statistical significance is subject to further testing.
+- According to Summary Statistics, the four treatment regimens with the lowest mean tumor volume (mm3) in test subjects are Ramicane, Capomulin, Ceftamin, and Infubinol.
+- According to Summary Statistics, the four treatment regimens with the lowest standard deviation of tumor volume (mm3) in test subjects are Ramicane, Capomulin, Ceftamin, and Infubinol.
+- According to Summary Statistics, the four treatment regimens with the lowest standard error of means of tumor volume (mm3) in test subjects are Ramicane, Capomulin, Ceftamin, and Infubinol, suggesting the reliability of subjects.
+- Not all subjects reacted well to Capomulin. An example is subject r157 that showed an increase in tumor volume (mm3) during the course of Capomulin treatment.
+- The heavier the mouse, the less effective is Capomulin as depicted by the scatter plot.
+- Linear regression shows R-squared value of 0.7, which suggests a reliable relationship between the subject's weight and Capomulin's effectiveness.
 </br>
-** The general trend is that charter schools that on average have smaller student population have higher math and reading scores compared to district schools. Charter schools also spend on average less budget per student. Further study is required separate the effect of school types from that of the population on students' performance. It is also important to explore if there are any other factors related to charter schools that are affecting students' performance. Before these studies are performed, it is recommended to be cautious before making strategic decisions on budgeting. **
+** The study shows that Capomulin's effectiveness on cancer treatment is only matched by that of Ramicane, but far surpasses those of Ceftamin and Infubinol. The effectiveness of Capomulin is influenced by the subject's weight, with lighter subjects reacting better to the treatment. **
 
 </br>
 </br>
@@ -103,4 +101,5 @@ Linear Regression:
 `python v.3.9.12`
 `jupyter notebook v.6.4.8`
 `pandas v.1.4.2`
-`Visual Studio 1.74.1`
+`Visual Studio v.1.74.1`
+`Matplotlib Pyplot v.3.5.1`
