@@ -96,10 +96,8 @@ Linear Regression:
 </br>
 
 ## Languages and Libraries:
-</br>
-
-`python v.3.9.12`
-`jupyter notebook v.6.4.8`
-`pandas v.1.4.2`
-`Visual Studio v.1.74.1`
-`Matplotlib Pyplot v.3.5.1`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-3776AB?style=flat&logo=matplotlib&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-3776AB?style=flat&logo=jupyter&logoColor=white)
+![VS Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
