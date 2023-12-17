@@ -3,84 +3,83 @@
 
 ## Purpose:
 
-In a recent animal study, 249 mice with squamous cell carcinoma (SCC) tumors were treated with various drug regimens, including Capomulin. Over a 45-day period, the study aimed to assess the efficacy of these treatments in inhibiting tumor development. The task involves using `Python` to analyze the complete dataset and generate tables and figures for the technical report. The study's top-level summary is pending detailed analysis, but it aims to compare the performance of Capomulin against other regimens, considering factors such as tumor size reduction, survival rates, and potential side effects. The ultimate goal is to provide the executive team with a comprehensive overview of the study results to inform future directions in anti-cancer medication development.
+In a recent animal study, 249 mice with squamous cell carcinoma (SCC) tumors were treated with various drug regimens, including `Capomulin`. Over a 45-day period, the study aimed to assess the efficacy of these treatments in inhibiting tumor development. The task involves using `Python` to analyze the complete dataset and generate tables and figures for the technical report. The study's top-level summary is pending detailed analysis, but it aims to compare the performance of `Capomulin` against other regimens, considering factors such as tumor size reduction, survival rates, and potential side effects. The ultimate goal is to provide the executive team with a comprehensive overview of the study results to inform future directions in anti-cancer medication development.
 
-
-## Data:
+## DataFrame:
 
 A quick snapshot of the DataFrame:
 </br></br>
 <p align="center">
   <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/rawdata.png" alt="rawdata"/>
-</p>
-</br>
+</p></br>
 
-## Observations:
-</br>
-### Summary Statistics:
+## Summary Statistics:
 </br>
 </br>
 <p align="center">
   <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/summarystatistics.png" alt="summarystatistics"/>
 </p>
 </br>
-Capomulin and Ramicane emerge as the most effective in diminishing tumor volume among the mice samples. The minimal variance in sizes under these two regimens, coupled with the smallest standard errors, suggests a heightened level of precision and consistency in their impact. This implies a more uniform and reliable response to treatment within these groups, reinforcing the notion that Capomulin and Ramicane showcase notable effectiveness in consistently reducing tumor sizes across the studied mice samples. These findings underscore the potential significance of these regimens for further exploration and potential clinical applications.
+
+`Capomulin` and `Ramicane` emerge as the most effective in diminishing tumor volume among the mice samples. The minimal variance in sizes under these two regimens, coupled with the smallest standard errors, suggests a heightened level of precision and consistency in their impact. This implies a more uniform and reliable response to treatment within these groups, reinforcing the notion that Capomulin and Ramicane showcase notable effectiveness in consistently reducing tumor sizes across the studied mice samples. These findings underscore the potential significance of these regimens for further exploration and potential clinical applications.
+
 </br>
 </br>
-Number of Timepoints for each Regimen:
+
+## Number of Timepoints for each Regimen:
 </br>
 <p align="center">
   <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/numberoftimepoints.png" alt="numberoftimepoints"/>
 </p>
 </br>
-The bar graph illustrates that the study has a greater number of timepoints allocated to the drug regimens 'Ramicane' and 'Ketapril,' while the regimen 'Zoniferol' has the fewest number of timepoints.
+
+The bar graph illustrates that the study has a greater number of timepoints allocated to the drug regimens `Ramicane` and `Ketapril`, while the regimen `Zoniferol` has the fewest number of timepoints.
+
 </br>
 </br>
-Sex Distribution of Specimen:
-</br>
-</br>
+
+## Sex Distribution of Specimen:
+</br></br>
 <p align="center">
   <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/sexdistribution.png" alt="sexdistribution"/>
-</p>
-</br>
+</p></br>
 The pie chart shows that we have a balanced distribution of male and female mice samples. This could imply that the researchers researchers aimed to minimize the impact of sex-related variables, making it easier to attribute observed effects to the treatments rather than potential gender biases. It's worth noting that such considerations in experimental design are essential for robust and reliable scientific findings, as they help control for potential confounding factors and enhance the generalizability of the results.
-</br>
-</br>
-Line Graph Showing Changes in Tumor Volume Across the Timepoints for each Regimen:
+</br></br>
+
+## Line Graph Showing Changes in Tumor Volume Across the Timepoints for each Regimen:
 </br>
 <p align="center">
   <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/tumordrugregimen.png" alt="tumordrugregimen"/>
-</p>
-</br>
-Only two drugs - Capomulin and Ramicane - shows efficacy in decreasing the tumor volume in the mice sample. All the other drugs do not appear to have any effect in decreasing the tumor volume.
-</br>
-</br>
-Box Plot of the Best Regimens by Mean Tumor Volume:
+</p></br>
+
+Only two drugs - `Capomulin` and `Ramicane` - shows efficacy in decreasing the tumor volume in the mice sample. All the other drugs do not appear to have any effect in decreasing the tumor volume.
+
 </br>
 </br>
+
+## Box Plot of the Best Regimens by Mean Tumor Volume:
+</br></br>
 <p align="center">
   <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/boxplot.png" alt="boxplot"/>
-</p>
-</br>
-There is one outlier under the drug regimen, Infubinol. This could imply several things including measurement error, biological variation, response heterogeneity, or drug resistance or ineffectivenes. Further investigation is required if the outlier raises concerns or questions about the validity of the data or the effectiveness of the drug regimen.
-</br>
-</br>
-Capomulin Treatment: Average Tumor Volume vs. Average Weight:
+</p></br>
+
+There is one outlier under the drug regimen, `Infubinol`. This could imply several things including measurement error, biological variation, response heterogeneity, or drug resistance or ineffectivenes. Further investigation is required if the outlier raises concerns or questions about the validity of the data or the effectiveness of the drug regimen.
+
 </br>
 </br>
+
+## Capomulin Treatment: Average Tumor Volume vs. Average Weight:
+</br></br>
 <p align="center">
   <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/corr.png" alt="correlation"/>
-</p>
-</br>
-Linear Regression:
-</br>
-</br>
+</p></br>
+
+## Linear Regression:
+</br></br>
 <p align="center">
   <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/linregress.png" alt="linregress"/>
-</p>
-</br>
-</br>
-## Analysis:
+</p></br></br>
+
 - `Slope (Coefficient)`: The slope of the regression line is approximately 0.9544. This value indicates the change in tumor volume (dependent variable) for each unit increase in mouse weight (independent variable). In this case, as mouse weight increases, the tumor volume is expected to increase by approximately 0.9544 units.
 
 - `Intercept`: The intercept of the regression line is approximately 21.5522. This is the value of the tumor volume when the mouse weight is zero. In practical terms, it might not have a meaningful interpretation in this context, as a mouse weight of zero is not meaningful in the context of this analysis.
