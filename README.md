@@ -2,7 +2,7 @@
 ![labrat](https://criver.widen.net/content/tphknpjpnk/jpeg/RM-001678.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=fwtil1)
 
 ## Purpose:
-The purpose of this study is to compare the efficacy of Capomulin, an anti-cancer medication, against other treatment regimens. In this study, 249 mouse subjects that were identified with squamous cell carcinoma, a common form of skin cancer, received medications of interest. Tumor development was then observed and recorded at certain time intervals up to 45 days.
+The purpose of this study is to use Python to compare the efficacy of Capomulin, an anti-cancer medication, against other treatment regimens. In this study, 249 mouse subjects that were identified with squamous cell carcinoma, a common form of skin cancer, received medications of interest. Tumor development was then observed and recorded at certain time intervals up to 45 days.
 
 
 ## Data:
