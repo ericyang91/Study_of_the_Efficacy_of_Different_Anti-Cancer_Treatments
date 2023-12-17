@@ -27,7 +27,7 @@ Number of Timepoints for each Regimen:
 </br>
 </br>
 <p align="center">
-  <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/numberoftimepoints.jpg" alt="numberoftimepoints"/>
+  <img src="https://github.com/ericyang91/Study_of_the_Efficacy_of_Different_Anti-Cancer_Treatments/blob/main/Images/numberoftimepoints.png" alt="numberoftimepoints"/>
 </p>
 </br>
 Sex Distribution of Specimen:
